@@ -2,21 +2,9 @@
   "name": "AT24C",
   "keywords": "at24c256, at24c128, eeprom, iic, i2c",
   "description": "AT24C256/AT24C128 I2C EEPROM class library",
-  "repository":
-  {
-    "type": "git",
-    "url": "https://github.com/x41tilla/AT24C.git"
-  },
-  "authors":
-  [
-    {
-      "name": "Atilla X41tilla Özkan",
-      "maintainer": true
-    }
-  ],
+  "repository":{"type": "git","url": "https://github.com/x41tilla/AT24C.git"},
+  "authors":[{"name": "Atilla X41tilla Özkan","maintainer": true,"url": "https://github.com/x41tilla"}],
   "frameworks": "arduino",
-  "examples":
-  [
-    "examples/teensy/Main.cpp"
-  ]
+  "platforms": ["atmelavr","espressif8266","teensy"],
+  "examples":  ["examples/teensy/Main.cpp"]
 }
