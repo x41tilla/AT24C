@@ -10,24 +10,13 @@
   "authors":
   [
     {
-      "name": "Atilla 'X41tilla' Özkan",
+      "name": "Atilla X41tilla Özkan",
       "maintainer": true
     }
   ],
   "frameworks": "arduino",
   "examples":
   [
-    "[Ee]xamples/*.c",
-    "[Ee]xamples/*.cpp",
-    "[Ee]xamples/*.ino",
-    "[Ee]xamples/*.pde",
-    "[Ee]xamples/*/*.c",
-    "[Ee]xamples/*/*.cpp",
-    "[Ee]xamples/*/*.ino",
-    "[Ee]xamples/*/*.pde",
-    "[Ee]xamples/*/*/*.c",
-    "[Ee]xamples/*/*/*.cpp",
-    "[Ee]xamples/*/*/*.ino",
-    "[Ee]xamples/*/*/*.pde"
+    "examples/teensy/Main.cpp"
   ]
 }
